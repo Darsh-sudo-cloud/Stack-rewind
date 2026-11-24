@@ -1,0 +1,6 @@
+rewind.exe
+test_vm.exe
+rewind
+test_vm
+*.o
+trace.json
