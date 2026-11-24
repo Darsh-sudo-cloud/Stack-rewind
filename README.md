@@ -2,6 +2,8 @@
 
 A small bytecode virtual machine in C with a browser-based time-travel debugger. Run a program, record every step, then move backward and forward through its history to find where a value went wrong.
 
+**[Try the live debugger](https://darsh-sudo-cloud.github.io/Stack-rewind/)**. Load `docs/sample-trace.json` from this repository.  
+
 ## Features
 
 | Feature | Status |
@@ -17,7 +19,7 @@ A small bytecode virtual machine in C with a browser-based time-travel debugger.
 ## Architecture
 
 ```
-Bytecode → C VM (src/vm.c) → trace.json → Web debugger (web/)
+Bytecode → C VM (src/vm.c) → trace.json → Web debugger (docs/)
 ```
 
 The VM writes the stack and variables after every instruction. The browser loads that file and replays it, so going back is just moving an index.
