@@ -1,4 +1,4 @@
-# Rewind
+# Stack rewind
 
 A small bytecode virtual machine in C with a browser-based time-travel debugger. Run a program, record every step, then move backward and forward through its history to find where a value went wrong.
 
@@ -72,4 +72,4 @@ gcc -Wall -Wextra -o test_vm.exe tests/test_vm.c src/vm.c
 
 ## Author
 
-Darsh · [GitHub](https://github.com/Darsh-sudo-cloud)
+Darsh Vora· [GitHub](https://github.com/Darsh-sudo-cloud)
