@@ -3,4 +3,4 @@ test_vm.exe
 rewind
 test_vm
 *.o
-trace.json
+trace.jsonS
